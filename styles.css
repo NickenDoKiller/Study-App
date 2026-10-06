@@ -689,7 +689,14 @@ textarea {
   padding: 52px 20px;
   background: var(--card);
   border: 1px dashed var(--border);
-  border-radius: var(--radius)
+  border-radius: var(--radius);
+  transition: var(--t);
+}
+
+.empty:hover {
+  border-color: var(--accent);
+  box-shadow: 0 12px 28px -8px var(--accent);
+  transition: var(--t);
 }
 
 .empty .big {
