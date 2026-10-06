@@ -1644,7 +1644,8 @@ textarea {
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   max-width: 440px;
-  margin: 0 auto
+  margin: 0 auto;
+  perspective: 1000px;
 }
 
 .mem-card {
