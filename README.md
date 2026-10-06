@@ -1,4 +1,4 @@
-**📚 StudyPro**
+# **📚 StudyPro**
 
 StudyPro là ứng dụng hỗ trợ học tập và luyện tập kiến thức thông qua nhiều hình thức câu hỏi khác nhau.
 
@@ -6,157 +6,95 @@ Mục tiêu của StudyPro là biến việc học từ kiểu "đọc → nhớ
 
 ---
 
-✨ Tính năng
+## ✨ Tính năng
 
-StudyPro hướng tới việc hỗ trợ nhiều dạng bài tập:
+### StudyPro hướng tới việc hỗ trợ nhiều dạng bài tập:
 
 - 📝 Trắc nghiệm — chọn một hoặc nhiều đáp án.
 - ✏️ Trả lời ngắn — nhập câu trả lời trực tiếp.
 - ✅❌ Đúng / Sai — xác định tính đúng sai của từng nhận định.
 - 🔢 Điền đáp án — hoàn thành phần còn thiếu.
-- 🧩 Ghép đôi — kết nối các khái niệm hoặc đáp án tương ứng.
-- 📖 Câu hỏi tự luận — luyện tập khả năng trình bày và giải thích.
-- 🎲 Các dạng câu hỏi khác — có thể mở rộng tùy theo nhu cầu.
 
-📊 Theo dõi kết quả
 
-StudyPro có thể cung cấp các thông tin như:
+## 📊 Theo dõi kết quả
 
-- Điểm số.
+### StudyPro có thể cung cấp các thông tin như:
+
+- 💯 Điểm số.
 - Số câu đúng / sai.
-- Tỷ lệ chính xác.
-- Thời gian làm bài.
-- Lịch sử luyện tập.
+- 📈 Tỷ lệ chính xác.
+- 🕐 Thời gian làm bài.
+- 🗓️ Lịch sử luyện tập.
 - Những câu hỏi thường xuyên trả lời sai.
-- Tiến độ học tập.
+- 🚚 Tiến độ học tập.
+- 🔥 Chuỗi/Streak để không cho bạn lười.
 
 ---
 
-🎯 Mục tiêu
+## 🎯 Mục tiêu
 
-StudyPro được xây dựng với một số mục tiêu chính:
+### StudyPro được xây dựng với một số mục tiêu chính:
 
-«Học không chỉ là đọc. Học là phải làm, phải sai, rồi phải hiểu tại sao mình sai.»
+***Học không chỉ là đọc. Học là phải làm, phải sai, rồi phải hiểu tại sao mình sai.***
 
 Ứng dụng hướng tới việc trở thành một nền tảng luyện tập linh hoạt, nơi người học có thể tự tạo hoặc sử dụng các bộ câu hỏi để kiểm tra kiến thức của mình.
 
 ---
 
-🛠️ Công nghệ
+## 🛠️ Công nghệ
 
-«Phần này sẽ được cập nhật theo công nghệ thực tế của dự án.»
+## Phần này sẽ được cập nhật theo thời gian, chúng tôi có thể dùng nhiều công nghệ khác nhau để nâng tầm trải nghiệm 🤓.
 
 Ví dụ:
 
-- Frontend: ...
-- Backend: ...
-- Database: ...
-- Authentication: ...
-- API: ...
+- Frontend: HTML, CSS
+- Backend: JS
+- Database: LocalStorage :D
+- AI: Từ từ rồi sẽ có :)
 
 ---
 
-📂 Cấu trúc dự án
 
-Cấu trúc dự án có thể thay đổi trong quá trình phát triển.
+## 🚀 Cài đặt
 
-StudyPro/
-├── src/
-├── assets/
-├── data/
-├── components/
-├── services/
-├── tests/
-└── README.md
+**Chỉ cần truy cập website ở phần Pages trong github, rồi bấm Install this page at app**
+
 
 ---
 
-🚀 Cài đặt
 
-Clone repository:
+## 🧠 Ý tưởng phát triển
 
-git clone <repository-url>
-cd StudyPro
-
-Sau đó cài đặt các dependency cần thiết theo công nghệ được sử dụng.
-
-<install-command>
-
-Chạy ứng dụng:
-
-<run-command>
-
----
-
-🧠 Ý tưởng phát triển
-
-Một số tính năng có thể được bổ sung trong tương lai:
+### Một số tính năng có thể được bổ sung trong tương lai:
 
 - [ ] Ngân hàng câu hỏi.
-- [ ] Tạo đề kiểm tra tùy chỉnh.
 - [ ] Trộn câu hỏi và đáp án.
 - [ ] Chế độ luyện tập không giới hạn.
 - [ ] Chế độ thi có giới hạn thời gian.
-- [ ] Chấm điểm tự động.
 - [ ] Phân tích điểm yếu của người học.
 - [ ] Hệ thống cấp độ / XP.
-- [ ] Streak học tập.
 - [ ] Bảng xếp hạng.
 - [ ] Đồng bộ dữ liệu giữa các thiết bị.
-- [ ] Import / Export bộ câu hỏi.
-- [ ] Hỗ trợ Markdown / LaTeX.
 - [ ] AI hỗ trợ tạo câu hỏi.
 - [ ] AI giải thích đáp án.
 - [ ] Hệ thống ôn tập lặp lại ngắt quãng (Spaced Repetition).
 
 ---
 
-🗺️ Roadmap
+## 🤝 Đóng góp
 
-Phase 1 — Core
-
-- [ ] Hệ thống câu hỏi.
-- [ ] Làm bài.
-- [ ] Chấm điểm.
-- [ ] Hiển thị kết quả.
-
-Phase 2 — Learning
-
-- [ ] Lịch sử làm bài.
-- [ ] Thống kê kết quả.
-- [ ] Theo dõi tiến độ.
-- [ ] Hệ thống ôn tập.
-
-Phase 3 — Advanced
-
-- [ ] Ngân hàng câu hỏi.
-- [ ] Tạo đề tùy chỉnh.
-- [ ] Import / Export.
-- [ ] Đồng bộ dữ liệu.
-
-Phase 4 — Intelligence
-
-- [ ] AI tạo câu hỏi.
-- [ ] AI phân tích điểm yếu.
-- [ ] AI đề xuất nội dung cần ôn tập.
-- [ ] Cá nhân hóa lộ trình học tập.
-
----
-
-🤝 Đóng góp
-
-Nếu bạn muốn đóng góp cho StudyPro:
+### Nếu bạn muốn đóng góp cho StudyPro:
 
 1. Fork repository.
 2. Tạo branch mới.
-
+```bash
 git checkout -b feature/my-feature
-
-3. Thực hiện thay đổi.
-4. Commit:
-
+```
+4. Thực hiện thay đổi.
+5. Commit:
+```bash
 git commit -m "feat: add my feature"
-
+```
 5. Push branch:
 
 git push origin feature/my-feature
@@ -165,28 +103,20 @@ git push origin feature/my-feature
 
 ---
 
-📄 License
+## 📌 Trạng thái dự án
 
-License của StudyPro hiện chưa được xác định.
+### 🚧 StudyPro đang trong quá trình phát triển.
 
-«License sẽ được bổ sung khi dự án chính thức phát hành.»
-
----
-
-📌 Trạng thái dự án
-
-🚧 StudyPro đang trong quá trình phát triển.
-
-Các tính năng, giao diện và kiến trúc của ứng dụng có thể thay đổi đáng kể trong quá trình phát triển.
+*Các tính năng, giao diện và kiến trúc của ứng dụng có thể thay đổi đáng kể trong quá trình phát triển.*
 
 ---
 
-💡 Philosophy
+## 💡 Philosophy
 
-StudyPro không cố biến việc học thành một trò chơi.
+StudyPro ***không*** cố biến việc học thành một trò chơi.
 
-Nó cố biến việc luyện tập kiến thức thành một thứ có thể đo lường, phân tích và cải thiện.
+Nó cố biến việc luyện tập kiến thức thành một thứ có thể **đo lường, phân tích và cải thiện**.
 
-«Practice. Make mistakes. Understand. Improve.
+***Practice. Make mistakes. Understand. Improve.***
 
-Làm bài. Sai. Hiểu. Tiến bộ.»
+Dịch: **Làm bài. Sai. Hiểu. Tiến bộ.**
