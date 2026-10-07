@@ -79,15 +79,14 @@ self.addEventListener('fetch', (event) => {
 
   // Bỏ qua request không phải từ origin (CDN, analytics...)
   if (url.origin !== self.location.origin) {
-    // Với KaTeX fonts thì cần cache — nhưng mình dùng local nên bỏ qua
     return;
   }
 
-  // ===== Chiến lược: Cache-first cho tài nguyên tĩnh =====
+  // ===== Cache-first cho tài nguyên tĩnh =====
   event.respondWith(
     caches.match(request).then(cached => {
       if (cached) {
-        // Có trong cache → trả về ngay (offline-friendly)
+        // Có trong cache → return ngay (offline-friendly)
         // Nhưng vẫn update ngầm nếu có mạng (stale-while-revalidate)
         fetch(request).then(res => {
           if (res && res.status === 200) {
