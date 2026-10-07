@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <title>StudyPro — Ôn thi thông minh</title>
 
-  <!-- KaTeX + marked: dùng CDN hoặc đổi sang local (lib/...) nếu muốn chạy offline -->
+  <!--KaTeX + marked-->
   <link rel="stylesheet" href="katex/katex.min.css">
   <script defer src="katex/katex.min.js"></script>
   <script defer src="katex/contrib/auto-render.min.js"></script>
@@ -21,7 +21,7 @@
   <meta name="apple-mobile-web-app-title" content="QuizPro">
   <link rel="apple-touch-icon" href="icon-192.png">
 
-  <!-- CSS của bạn -->
+  <!--CSS-->
   <link rel="stylesheet" href="styles.css">
 
   <!-- JS của app (tải sau DOM) -->
@@ -40,7 +40,7 @@
     </div>
   </div>
 
-  <!-- ============ MODAL IMPORT ĐỀ ============ -->
+  <!-- ============ MODAL IMPORT ĐỀ THI ============ -->
   <div class="modal-back" id="modalImport">
     <div class="modal" role="dialog" aria-modal="true" style="max-width:560px">
       <h3 class="modal-title" style="text-align:left">Thêm đề thi mới</h3>
@@ -49,8 +49,9 @@
         <b>mcq</b> (trắc nghiệm), <b>truefalse</b> (đúng/sai), <b>short</b> (trả lời ngắn).<br>
         Câu hỏi hỗ trợ <b>Markdown</b> và <b>LaTeX</b>: viết <code>$\frac{1}{3}$</code>
         để hiển thị phân số, <code>```python ... ```</code> cho code block.
-      </p>
+      </p> <!-- ================= ĐỀ MẪU ================ -->
       <textarea id="importArea" spellcheck="false" placeholder='{
+        
   "title": "Đề ôn tập Vật Lý - Chương 1",
   "subject": "Vật lý",
   "duration": 15,
